@@ -1,0 +1,19 @@
+PROPOSAL REQUIREMENTS CROSS-CHECK
+=================================
+
+FR1 Visitors view selected tourism/accommodation services: Implemented in index.php + services.php.
+FR2 Visitors view service details: Implemented using service cards and expandable details.
+FR3 Visitors submit booking request: Implemented in index.php + app.js + book.php.
+FR4 Validate and store requests: Implemented in book.php with server-side checks and PDO.
+FR5 Initial Pending status: Implemented in bookings table and book.php.
+FR6 Administrator views requests and updates statuses: Implemented in admin.php + status.php.
+FR7 Administrator adds, edits or deactivates sample services: Implemented in admin.php.
+FR8 Administrative functions protected by server-side access control: Implemented through helpers.php and require_admin().
+
+Proposal testing areas: service browsing, booking validation, booking storage, admin access, status update,
+prepared statements and responsive layout are represented in the included test plan.
+
+NOT YET VERIFIED ON THE STUDENT'S COMPUTER:
+Actual Apache/PHP/MySQL runtime, browser compatibility, database migration execution and end-to-end
+booking/admin testing. Record actual results after running the local test plan; do not report these as passed
+until they have been tested.
